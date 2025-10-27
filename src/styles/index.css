@@ -9,3 +9,64 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+/* 🎨 Estilos generales */
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 🧮 Contenedor principal */
+.contador {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔠 Título */
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+/* 🔢 Número */
+h2 {
+    font-size: 3rem;
+    color: #444;
+    margin: 20px 0;
+}
+
+/* 🔘 Botones */
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+/* 💚 Botón de aumentar */
+button:first-of-type {
+    background-color: #4caf50;
+}
+
+/* ❤️ Botón de disminuir */
+button:last-of-type {
+    background-color: #e74c3c;
+}
+
+/* ✨ Animación al pasar el ratón */
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
